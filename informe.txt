@@ -1,23 +1,8 @@
 Opción elegida: Ficha de registro de estructuras diversas
-Número de UE: 123
-Coordenadas: 456
-Título: asdqwerty
-Aquí puedes añadir más líneas de texto según sea necesario, usando la misma estructura para incluir variables si es preciso. Este método facilita la adición de texto extendido manteniendo el código organizado y legible.Opción elegida: Ficha de registro de estructuras diversas
-Número de UE: 123
-Coordenadas: 456
-Título: qwerty
-Aquí puedes añadir más líneas de texto según sea necesario, usando la misma estructura para incluir variables si es preciso. Este método facilita la adición de texto extendido manteniendo el código organizado y legible.Opción elegida: Ficha de registro de estructuras diversas
-Número de UE: 123
-Coordenadas: 456
-Título: qwerty
-Aquí puedes añadir más líneas de texto según sea necesario, usando la misma estructura para incluir variables si es preciso. Este método facilita la adición de texto extendido manteniendo el código organizado y legible.
+Número de UE: 1718 fogon invertido de arcilla
+{descripcion}
+Coordenadas: N8794947-49/E224174-78
 Opción elegida: Ficha de registro de estructuras diversas
-Número de UE: 123
-Coordenadas: 456
-Título: qwerty
-Aquí puedes añadir más líneas de texto según sea necesario, usando la misma estructura para incluir variables si es preciso. Este método facilita la adición de texto extendido manteniendo el código organizado y legible.
-Opción elegida: Ficha de registro de estructuras diversas
-Número de UE: 123
-Coordenadas: 456
-Título: qwerty
-Aquí puedes añadir más líneas de texto según sea necesario, usando la misma estructura para incluir variables si es preciso. Este método facilita la adición de texto extendido manteniendo el código organizado y legible.
+Número de UE: 1718 fogon invertido de arcilla
+{descripcion}
+Coordenadas: N8794947-49/E224174-78

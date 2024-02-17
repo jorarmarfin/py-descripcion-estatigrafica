@@ -1,4 +1,5 @@
 from termcolor import colored
+from insertar_fichas import insertar_ficha
 
 # Lista de opciones para el usuario
 opciones = [
@@ -22,31 +23,14 @@ opcion_elegida = opciones[eleccion]
 # Solicitar más información
 numero_ue = input("Ingresa el número de UE: ")
 coordenadas = input("Ingresa las coordenadas: ")
-titulo = input("Ingresa el título: ")
+titulo_descripcion = input("Ingresa el título: ")
+tipo_de_estructura = input("Ingresa tipo de estructura: ")
+descripcion = input("Ingresa la descripcion: ")
 
-# Mostrar la información recopilada
-informacion = (f"Opción elegida: {opcion_elegida}\n"
-               f"Número de UE: {numero_ue}\n"
-               f"Coordenadas: {coordenadas}\n"
-               f"Título: {titulo}\n"
-               "Aquí puedes añadir más líneas de texto según sea necesario, "
-               "usando la misma estructura para incluir variables si es preciso. "
-               "Este método facilita la adición de texto extendido manteniendo "
-               "el código organizado y legible.\n")
-
-# Preguntar al usuario si desea eliminar el contenido anterior o añadir al archivo
-accion = input("¿Deseas eliminar el contenido anterior del archivo? (sí/no): ").strip().lower()
-
-if accion == 'sí' or accion == 'si':
-    # Abrir el archivo informe.txt en modo 'w' para sobrescribir (o 'eliminar' su contenido)
-    with open('informe.txt', 'w') as archivo:
-        archivo.write(informacion)
-else:
-    # Abrir el archivo informe.txt en modo 'a' para añadir al final, incluyendo un salto de línea al inicio para separar entradas
-    with open('informe.txt', 'a') as archivo:
-        archivo.write('\n' + informacion)
-
-print(colored(informacion, 'green'))
-# Abrir el archivo informe.txt en modo 'a' para añadir al final
-with open('informe.txt', 'a') as archivo:
-    archivo.write(informacion)
+insertar_ficha(
+    opcion_elegida,
+    numero_ue,
+    coordenadas,
+    titulo_descripcion,
+    tipo_de_estructura,
+    descripcion)
